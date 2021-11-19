@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h1 class="tot">Total: <span id="total">0</span> </h1>
+
+        <div class="wrapper-inner row">
+
+
+            <div class="income" >
+                <form id="form">
+                    <input name="purpose" type="text" id="purpose" placeholder="maqsad..." autocomplete="off">
+                    <input name="cost" type="number" id="cost" placeholder="summa...">
+                    <button class="btn" type="submit">send</button>
+                </form>
+                <table>
+                    <thead>
+                        <tr>
+                            <tr>
+                                <th>purpose</th>
+                                <th>cost</th>
+                                <th></th>
+                            </tr>
+                        </tr>
+                    </thead>
+                    <tbody class="tbody" id="tb1">
+                        <!-- <tr>
+                            <td>Biznes</td>
+                            <td>+1000$</td>
+                            <td><button class="del">X</button></td>
+                        </tr>
+                        <tr>
+                            <td>Biznes</td>
+                            <td>+1000$</td>
+                            <td><button class="del" >X</button></td>
+                        </tr> -->
+                    </tbody>
+                </table>
+            </div>
+
+
+            <div class="expanse">
+                <form id="form">
+                    <input name="purpose" type="text" id="purposes" placeholder="maqsad..." autocomplete="off">
+                    <input name="cost" type="number" id="costes" placeholder="summa...">
+                    <button class="btn" type="submit">send</button>
+                </form>
+                <table>
+                    <thead>
+                        <tr>
+                            <tr>
+                                <th>purpose</th>
+                                <th>cost</th>
+                                <th></th>
+                            </tr>
+                        </tr>
+                    </thead>
+                    <tbody class="tbody" id="tb2">
+                        <!-- <tr>
+                            <td>Biznes</td>
+                            <td>-1000$</td>
+                            <td><button class="del">X</button></td>
+                        </tr>
+                        <tr>
+                            <td>Biznes</td>
+                            <td>-1000$</td>
+                            <td><button class="del" >X</button></td>
+                        </tr> -->
+                    </tbody>
+                </table>
+            </div>
+
+
+        </div>
+       </div>
+
+<script src="./main.js" ></script>
+</body>
+</html>
